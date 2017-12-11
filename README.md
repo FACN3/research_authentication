@@ -1,4 +1,4 @@
-# research week7_authentication : Stateless vs stateful authentication
+# Stateless vs stateful authentication
 
 ## What is session based authentication (stateful) vs token based authentication (stateless)?
 **1. Session based authentication**
