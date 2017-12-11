@@ -30,17 +30,21 @@ N.B. sensitive information should still not be stored in a jwt.
 
 ## What are the advantages and disadvantages of each?
 **1. Session based authentication**
+
 advantages : 
 * More detailed data can be referenced to a session ID in a cookie.
+
 disadvantages :
 * Requires big database.
 * Difficult to scale when more than one server.
 
 **2. Token based authentication**
+
 advantages :
 * Light-weight
 * Do not need database of session IDs.
 * You do not need to append database 
+
 disadvantages :
 * Header and payload are only encoded, not encrypted.
 
