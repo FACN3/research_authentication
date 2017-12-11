@@ -44,6 +44,7 @@ advantages :
 * Light-weight
 * Do not need database of session IDs.
 * You do not need to append database 
+* you can still set max-age and then on verify it will not approve if it's expired
 
 disadvantages :
 * Header and payload are only encoded, not encrypted.
