@@ -47,5 +47,4 @@ advantages :
 
 disadvantages :
 * Header and payload are only encoded, not encrypted.
-
-
+* For more sophisticated websites, you may still need to store session IDs to reference session activity.
